@@ -45,6 +45,13 @@ BigNumber { value: "100000000000000000" }
 BigNumber { value: "2" }
 > .exit
 ```
+
+## Test Coverage
+```
+npm run test-coverage
+```
+![test-coverage](./images/test-coverage.png)
+
 ## Contracts Utils
 
 ### Format solidity and javascript source code
@@ -99,7 +106,7 @@ Proxy fully verified.
 ```
   "pre-commit": [
     "prettier",
-    "verify"
+    "contract-check"
   ]
 ```
 
@@ -114,7 +121,7 @@ git commit -m "commit message" --no-verify
 ```
   "pre-push": [
     "prettier",
-    "verify",
+    "contract-check",
     "test"
   ]
 ```

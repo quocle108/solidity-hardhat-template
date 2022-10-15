@@ -6,7 +6,7 @@
  * Included OpenZeppelin smart contract and Upgradable smart contract Library 
  * All needed hardhat plugins: solidity hint, coverage, code verify, gas price.
  * Supported libraries to format, verify and clean the code
-
+ * [Usage docs](./docs/usage.md)
 
 # Quick start
 
