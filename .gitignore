@@ -1,0 +1,16 @@
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+.DS_Store
+yarn.lock
+
+#Hardhat files
+cache
+artifacts
+
+#openzeppelin files
+.openzeppelin/unknown-*.json
+.openzeppelin/.session

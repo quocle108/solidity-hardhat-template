@@ -1,0 +1,272 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x4504133cB14f883a30aB31A6e64D05bE44d17552",
+    "txHash": "0x9a5d059717c7d396bb4ed0128c17f191df62a8027cd99509793a69d351eb8879"
+  },
+  "proxies": [
+    {
+      "address": "0x5FC3942BF96b7D25686aC1E6c019aa03ABd5CE9E",
+      "txHash": "0x1b804ccd76ec697ddffc4ece457c38ed36f41ac6b866f0363db08fa60cf4b25d",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "cd720f3b16e95d4ff1250d5db06b95430c6217a700d3425fbc36cb3f89c8f334": {
+      "address": "0xAE999826BEA0E7D19E246356A67DBf274F9527e4",
+      "txHash": "0xbaa2f10c5b6c1cca55dc4169ce830b912ec843c4258f72d17bfe6ab8b2407e90",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "goldToken",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_address",
+            "contract": "GoldSaleV1",
+            "src": "contracts/Mock/GoldSaleV1.sol:13"
+          },
+          {
+            "label": "goldEscrow",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_address",
+            "contract": "GoldSaleV1",
+            "src": "contracts/Mock/GoldSaleV1.sol:14"
+          },
+          {
+            "label": "etherPricePerToken",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_uint256",
+            "contract": "GoldSaleV1",
+            "src": "contracts/Mock/GoldSaleV1.sol:15"
+          },
+          {
+            "label": "maxTokenPerPurchase",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_uint256",
+            "contract": "GoldSaleV1",
+            "src": "contracts/Mock/GoldSaleV1.sol:16"
+          },
+          {
+            "label": "maxTokenPerAddress",
+            "offset": 0,
+            "slot": "105",
+            "type": "t_uint256",
+            "contract": "GoldSaleV1",
+            "src": "contracts/Mock/GoldSaleV1.sol:17"
+          },
+          {
+            "label": "purchasedAmountByAddress",
+            "offset": 0,
+            "slot": "106",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "GoldSaleV1",
+            "src": "contracts/Mock/GoldSaleV1.sol:18"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "237f4119633f1c80258809ae62a4c47a7deb8d30e6af80de4923ee53a1666722": {
+      "address": "0x42Eb203D7677D4D9F372253074647f33ACD52EFa",
+      "txHash": "0x846ada5df407cc020b43d891cbe1dbcc8aae2ba026c1acb2a55d99ddfd563656",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "goldToken",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_address",
+            "contract": "GoldSale",
+            "src": "contracts/GoldSale.sol:13"
+          },
+          {
+            "label": "goldEscrow",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_address",
+            "contract": "GoldSale",
+            "src": "contracts/GoldSale.sol:14"
+          },
+          {
+            "label": "etherPricePerToken",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_uint256",
+            "contract": "GoldSale",
+            "src": "contracts/GoldSale.sol:15"
+          },
+          {
+            "label": "maxTokenPerPurchase",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_uint256",
+            "contract": "GoldSale",
+            "src": "contracts/GoldSale.sol:16"
+          },
+          {
+            "label": "maxTokenPerAddress",
+            "offset": 0,
+            "slot": "105",
+            "type": "t_uint256",
+            "contract": "GoldSale",
+            "src": "contracts/GoldSale.sol:17"
+          },
+          {
+            "label": "purchasedAmountByAddress",
+            "offset": 0,
+            "slot": "106",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "GoldSale",
+            "src": "contracts/GoldSale.sol:18"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}
