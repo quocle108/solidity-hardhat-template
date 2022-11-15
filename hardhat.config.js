@@ -14,14 +14,23 @@ module.exports = {
     local: {
       url: process.env.ETH_ENDPOINT || 'http://localhost:8545',
       accounts: privKeys,
+      // accounts: {
+      //   mnemonic: process.env.MNEMONIC,
+      // }
     },
     goerli: {
       url: `https://goerli.infura.io/v3/${process.env.INFURA_PROJECT_ID}`,
-      accounts: privKeys
+      accounts: privKeys,
+      // accounts: {
+      //   mnemonic: process.env.MNEMONIC,
+      // }
     },
     mainnet: {
       url: `https://mainnet.infura.io/v3/${process.env.INFURA_PROJECT_ID}`,
-      accounts: privKeys
+      accounts: privKeys,
+      // accounts: {
+      //   mnemonic: process.env.MNEMONIC,
+      // }
     },
   },
   gasReporter: {
